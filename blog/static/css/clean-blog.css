@@ -16,6 +16,7 @@ p {
 p a {
   text-decoration: underline;
 }
+
 h1,
 h2,
 h3,
@@ -47,6 +48,9 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
+.post-form textarea, .post-form input {
+        width: 100%;
+    }
 .navbar-custom {
   position: absolute;
   top: 0;
